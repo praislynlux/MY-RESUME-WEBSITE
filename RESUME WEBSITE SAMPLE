@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praislyn Luxza's Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: linear-gradient(135deg, #fff, #e4e4e4);
+            margin-top: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            color: #333;
+            font-size: 3em;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        nav {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff6347;
+        }
+        section {
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            background: #fff;
+            transition: transform 0.3s;
+        }
+        section:hover {
+            transform: scale(1.02);
+        }
+        section h2 {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            margin: -10px -10px 10px;
+            border-radius: 5px 5px 0 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        @media (min-width: 768px) {
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            section {
+                flex: 1 1 calc(50% - 40px);
+                margin: 10px;
+            }
+            section.full-width {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#career-objectives">Career Objectives</a>
+        <a href="#education">Education</a>
+        <a href="#courses">Courses</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#workshops">Workshops</a>
+        <a href="#internships">Internships</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+    </nav>
+    <div class="container">
+        <header>
+            <h1>Praislyn Luxza R</h1>
+            <p>Email: <a href="mailto:praislyn16@gmail.com">praislyn16@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/praislyn-luxza" target="_blank">linkedin.com/in/praislyn-luxza</a></p>
+            <p>Madurai, TAMILNADU</p>
+        </header>
+
+        <section id="career-objectives" class="full-width">
+            <h2>Career Objectives</h2>
+            <p>Seeking for a challenging position as a professional, where in given chance of proving my skills and abilities in the Technical field that offers professional growth while being resourceful, innovative and flexible. To accomplish my responsibilities to the best of my efficiency and to work hard to achieve organizational objectives.</p>
+        </section>
+
+        <section id="education">
+            <h2>Educational Qualification</h2>
+            <ul>
+                <li><strong>BE(ECE)</strong>, SRM TRP Engineering College, Anna University, Trichy (2020 - 2024) - 8.3 CGPA without backlogs</li>
+                <li><strong>HSC</strong>, E.B.G Matric Higher Secondary school, Madurai (2019 - 2020) - 81.1%</li>
+                <li><strong>SSLC</strong>, E.B.G Matric Higher Secondary school, Madurai (2018 - 2019) - 89%</li>
+            </ul>
+        </section>
+
+        <section id="courses">
+            <h2>Courses Completed</h2>
+            <ul>
+                <li>Getting started with AWS (19th Oct 2022, SKILLUP)</li>
+                <li>Cyber Security (2nd Jan 2023, NAAN MUDHALVAN)</li>
+                <li>Java Certification Course (30th Oct 2021, SKILLUP)</li>
+                <li>Digital Marketing (1st Nov 2021, SKILLUP)</li>
+                <li>Machine Learning (2nd Sep 2021, NAAN MUDHALVAN)</li>
+                <li>Business Analytics with Excel (13th Jan 2022, SIMPLILEARN)</li>
+                <li>Python for Machine Learning (April 2021, GREAT LEARNING)</li>
+                <li>Diploma in Interconnecting Cisco Networking Devices (3rd Aug 2024, CISCO)</li>
+            </ul>
+        </section>
+
+        <section id="programming-languages">
+            <h2>Programming Languages Known</h2>
+            <ul>
+                <li>C++</li>
+                <li>JAVA</li>
+                <li>C</li>
+                <li>Python</li>
+                <li>Matlab</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Php</li>
+                <li>Ruby</li>
+            </ul>
+        </section>
+
+        <section id="interests">
+            <h2>Area of Interest</h2>
+            <ul>
+                <li>CCNA (Cisco certified Diploma)</li>
+                <li>CISSP</li>
+                <li>SAP/SAP HANA</li>
+                <li>Network troubleshooting</li>
+                <li>Cloud Computing</li>
+                <li>AWS</li>
+                <li>HR management</li>
+                <li>AutoCAD</li>
+                <li>Application Development</li>
+            </ul>
+        </section>
+
+        <section id="personal-skills">
+            <h2>Personal Skills</h2>
+            <ul>
+                <li>Good in Communication</li>
+                <li>Problem Solving</li>
+                <li>Project management</li>
+                <li>Administration</li>
+                <li>MS Excel skills</li>
+                <li>Technical support</li>
+                <li>Data analysis skills</li>
+                <li>Emotional intelligence</li>
+                <li>IT Analysis</li>
+                <li>Hardware and software troubleshooting</li>
+            </ul>
+        </section>
+
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Won 1st Prize in Paper Presentation held at SETHU INSTITUTE OF TECHNOLOGY</li>
+                <li>Completed 10 projects on hand at quarterly time period</li>
+            </ul>
+        </section>
+
+        <section id="workshops">
+            <h2>Workshops Attended</h2>
+            <ul>
+                <li>ANDROID DEVELOPMENT Workshop at MIT CHENNAI</li>
+                <li>MICROSOFT POWER BI at LUDIFU</li>
+            </ul>
+        </section>
+
+        <section id="internships">
+            <h2>Internships</h2>
+            <ul>
+                <li>Solution Architect, AWS (27th July 2022)</li>
+                <li>Global Tech Advanced Software Engineering, WALMART (28th July 2022)</li>
+                <li>Cyber Security, INFOSYS (2nd Jan 2023)</li>
+                <li>Data Engineering, JUPYTER (27th July 2022)</li>
+                <li>Web development, NextGen solutions (15th Aug 2021)</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="full-width">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>PROJECT ACCOMPLISHED:</strong> QUADCOPTER – MEDICAL UAV DRONE
+                    <ul>
+                        <li><strong>Abstract:</strong> Detecting obstacles and automatically figuring out the way around using a robot called DRONE. Our project is based on an ambulance medical drone that helps reduce ground time. The drone can sense the arrival time of an ambulance before 1km and can pass the signal to the tollgate and control room, so they can arrange to clear the vehicles for the ambulance. Thereby, there will not be any risk of letting the patient's health deteriorate.</li>
+                    </ul>
+                </li>
+                <li><strong>PROJECT ACCOMPLISHED:</strong> DESIGN OF HARDWARE CHATGPT WITH VOICE ASSISTANCE AND AI – IOT FOR VISUALLY IMPAIRED
+                    <ul>
+                        <li><strong>Abstract:</strong> The hardware integrates ChatGPT with voice assistance and AI-IoT for visually impaired individuals, offering multifunctional support through AI, NLP, and IoT. It enhances accessibility, independence, and quality of life by providing conversational interaction, auditory feedback, and navigation assistance. This transformative technology promotes equality and participation in everyday life for visually impaired individuals.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="experience" class="full-width">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>SOFTWARE  DEVELOPER</strong> at 7DREAMZ SOFTWARE SOLUTIONS
+                    <ul>
+                        <li>Duration – June 2023 – at present</li>
+                    </ul>
+                </li>
+                <li><strong>HR</strong> (Part-time)
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>Praislyn Luxza R | Email: praislyn16@gmail.com | LinkedIn: <a href="https://linkedin.com/in/praislyn-luxza" target="_blank">linkedin.com/in/praislyn-luxza</a> 
+        </footer>
+    </div>
+</body>
+</html>
